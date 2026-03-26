@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PED TEC | Tecnologia & Inovação</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Times New Roman",serif;
+}
+
+body{
+background:#0b0f1a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#000;
+position:fixed;
+width:100%;
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+font-size:24px;
+font-weight:bold;
+color:#00c3ff;
+}
+
+.logo-icon{
+width:42px;
+height:42px;
+background:#00c3ff;
+color:black;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+font-weight:bold;
+}
+
+nav a{
+margin-left:30px;
+text-decoration:none;
+color:white;
+font-size:18px;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(#0b0f1a,#111b3a);
+}
+
+.hero h1{
+font-size:60px;
+max-width:900px;
+}
+
+.hero span{
+color:#00c3ff;
+}
+
+.hero p{
+margin-top:20px;
+font-size:22px;
+max-width:650px;
+color:#cbd5e1;
+}
+
+.btn{
+margin-top:35px;
+padding:16px 45px;
+border:none;
+border-radius:30px;
+background:#00c3ff;
+color:black;
+font-weight:bold;
+font-size:18px;
+cursor:pointer;
+}
+
+/* SECTION */
+
+section{
+padding:120px 80px;
+text-align:center;
+}
+
+h2{
+font-size:42px;
+margin-bottom:30px;
+}
+
+/* ABOUT */
+
+.about{
+max-width:900px;
+margin:auto;
+font-size:20px;
+color:#cbd5e1;
+}
+
+/* STATS */
+
+.stats{
+margin-top:50px;
+display:flex;
+justify-content:center;
+gap:90px;
+flex-wrap:wrap;
+}
+
+.stat{
+font-size:30px;
+}
+
+/* SERVICES */
+
+.grid{
+margin-top:60px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:40px;
+}
+
+.card{
+background:#121a2f;
+padding:40px;
+border-radius:12px;
+border:1px solid #00c3ff;
+}
+
+.card h3{
+color:#00c3ff;
+margin-bottom:10px;
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.project{
+background:#121a2f;
+border-radius:10px;
+padding:20px;
+}
+
+.project img{
+width:100%;
+border-radius:10px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial{
+max-width:700px;
+margin:40px auto;
+font-style:italic;
+color:#cbd5e1;
+}
+
+/* CONTACT */
+
+input,textarea{
+width:100%;
+max-width:500px;
+padding:15px;
+margin:10px auto;
+border-radius:8px;
+border:none;
+display:block;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+background:black;
+color:#aaa;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+width:65px;
+height:65px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:32px;
+color:white;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+<div class="logo-icon">P</div>
+PED TEC
+</div>
+
+<div>
+<a href="#">Início</a>
+<a href="#sobre">Empresa</a>
+<a href="#servicos">Serviços</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<h1>
+Tecnologia que cria <span>empresas digitais de sucesso</span>
+</h1>
+
+<p>
+A PED TEC desenvolve soluções digitais inovadoras para empresas que querem crescer, vender mais e dominar o mercado online.
+</p>
+
+<button class="btn">Começar Projeto</button>
+
+</section>
+
+
+<section id="sobre">
+
+<h2>Sobre a Empresa</h2>
+
+<p class="about">
+A PED TEC é uma empresa especializada em desenvolvimento de tecnologia digital, marketing online e soluções inovadoras para empresas modernas. Nosso objetivo é ajudar negócios a crescer através da internet, criando plataformas digitais profissionais e estratégias que geram resultados reais.
+</p>
+
+<div class="stats">
+
+<div class="stat">
+<strong>150+</strong><br>
+Projetos concluídos
+</div>
+
+<div class="stat">
+<strong>80+</strong><br>
+Clientes satisfeitos
+</div>
+
+<div class="stat">
+<strong>7+</strong><br>
+Anos de experiência
+</div>
+
+</div>
+
+</section>
+
+
+<section id="servicos">
+
+<h2>Nossos Serviços</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Desenvolvimento de Websites</h3>
+<p>Sites modernos, rápidos e profissionais.</p>
+</div>
+
+<div class="card">
+<h3>Lojas Virtuais</h3>
+<p>E-commerce completo para vendas online.</p>
+</div>
+
+<div class="card">
+<h3>Marketing Digital</h3>
+<p>Estratégias para atrair clientes e aumentar vendas.</p>
+</div>
+
+<div class="card">
+<h3>Design Gráfico</h3>
+<p>Logotipos e identidade visual profissional.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="projetos">
+
+<h2>Projetos de Sucesso</h2>
+
+<div class="projects">
+
+<div class="project">
+<img src="https://picsum.photos/400/250">
+<p>Website corporativo internacional.</p>
+</div>
+
+<div class="project">
+<img src="https://picsum.photos/401/250">
+<p>Plataforma de vendas online.</p>
+</div>
+
+<div class="project">
+<img src="https://picsum.photos/402/250">
+<p>Gestão profissional de redes sociais.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Testemunhos</h2>
+
+<div class="testimonial">
+“A PED TEC transformou completamente nossa presença digital.”
+</div>
+
+<div class="testimonial">
+“Profissionalismo e qualidade impressionante.”
+</div>
+
+</section>
+
+
+<section id="contato">
+
+<h2>Entre em Contacto</h2>
+
+<input type="text" placeholder="Seu nome">
+
+<input type="email" placeholder="Seu email">
+
+<textarea placeholder="Descreva seu projeto"></textarea>
+
+<button class="btn">Enviar</button>
+
+</section>
+
+
+<footer>
+
+© 2026 PED TEC | Tecnologia Digital Internacional
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/244945693375">💬</a>
+
+</body>
+</html>
